@@ -4,14 +4,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="general.css">
-<link rel="stylesheet" href="header.css">
-<link rel="stylesheet" href="video.css">
-<link rel="stylesheet" href="sidebar.css">
+<link rel="stylesheet" href="youtubestyles/general.css">
+<link rel="stylesheet" href="youtubestyles/header.css">
+<link rel="stylesheet" href="youtubestyles/video.css">
+<link rel="stylesheet" href="youtubestyles/sidebar.css">
     <head>
     </head>
     <body>
-        <div class="header">
+        <header class="header">
             
        <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg">
@@ -21,8 +21,10 @@
         <input class="search-bar" type="text" placeholder="Search">
         <button class="search-button">
             <img class="search-icon" src="icons/search.svg">
+
             <div class="tooltip">Search</div>
         </button>
+        <!--   PUT POSITION ABSOLUTE INSIDE POSITION RELATIVE      -->
         <button class="voice-search-button" >
             <img class="voice-search-icon" src="icons/voice-search-icon.svg">
             <div class="tooltip">Search with your voice</div>
@@ -49,10 +51,10 @@
 
         <img class="my-channel-icon" src="channel-pictures/my-channel.jpeg">
        </div>
-       </div>
+    </header>
 
 
-        <div class="sidebar">
+        <nav class="sidebar">
         <div class="sidebar-link">
             <img src="/icons/home.svg">
             <div>Home</div>
@@ -77,25 +79,36 @@
             <img src="/icons/library.svg">
             <div>Library</div>
         </div>
-        </div>
+    </nav>
         
 
-
-        <div></div>
-        <div class="video-grid">
+        <main>
+        <section class="video-grid">
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img class="thumbnail" src="thumbnails/thumbnail-1.webp"></a>
                <div class="video-time">14:20</div>
                
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
                         <div>
+                            <div class="tooltip">
+                                <div class="tooltip-profile">
+                                    <img class="profile-picture-tooltip" src="channel-pictures/channel-1.jpeg">
+                                </div>
+                                <div class="tooltip-profile">
+                                    <p class="video-author-tooltip">
+                                        <strong>Marques Brownlee</strong>
+                                    </p>
+                                    <p class="video-stats">
+                                        15M Subscribers
+                                    </p>
+                                </div>
+                            </div>
                         <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
                     <div class="profile-grid">
                         <div class="profile-tool-tip"> 
-                        <div></div>
                        
                     </div>
                     </div>
@@ -119,11 +132,24 @@
 
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><img class="thumbnail" src="thumbnails/thumbnail-2.webp"></a>
                     <div class="video-time">8:22</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture"> 
+                        <div class="tooltip">
+                            <div class="tooltip-profile">
+                                <img class="profile-picture-tooltip" src="channel-pictures/channel-2.jpeg">
+                            </div>
+                            <div class="tooltip-profile">
+                                <p class="video-author-tooltip">
+                                    <strong>Markiplier</strong>
+                                </p>
+                                <p class="video-stats">
+                                    12M Subscribers
+                                </p>
+                            </div>
+                        </div>
                         <img class="profile-picture" src="channel-pictures/channel-2.jpeg"></div>
                     <div class="video-info">
                         <p class="video-title">
@@ -143,11 +169,24 @@
 
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=FgjPQQeTh1w"><img class="thumbnail" src="thumbnails/thumbnail-3.webp"></a>
                     <div class="video-time">9:13</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture"> 
+                        <div class="tooltip">
+                            <div class="tooltip-profile">
+                                <img class="profile-picture-tooltip" src="channel-pictures/channel-3.jpeg">
+                            </div>
+                            <div class="tooltip-profile">
+                                <p class="video-author-tooltip">
+                                    <strong>SSSniper Wolf</strong>
+                                </p>
+                                <p class="video-stats">
+                                    13.5M Subscribers
+                                </p>
+                            </div>
+                        </div>
                         <img class="profile-picture" src="channel-pictures/channel-3.jpeg"></div>
                     <div class="video-info">
                         <p class="video-title">
@@ -168,11 +207,24 @@
     
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=094y1Z2wpJg"><img class="thumbnail" src="thumbnails/thumbnail-4.webp"></a>
                     <div class="video-time">22:09</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture"> 
+                        <div class="tooltip">
+                            <div class="tooltip-profile">
+                                <img class="profile-picture-tooltip" src="channel-pictures/channel-4.jpeg">
+                            </div>
+                            <div class="tooltip-profile">
+                                <p class="video-author-tooltip">
+                                    <strong>Veritasium</strong>
+                                </p>
+                                <p class="video-stats">
+                                    7.2M Subscribers
+                                </p>
+                            </div>
+                        </div>
                         <img class="profile-picture" src="channel-pictures/channel-4.jpeg"></div>
                     <div class="video-info">
                         <p class="video-title">
@@ -192,11 +244,24 @@
 
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=86CQq3pKSUw"><img class="thumbnail" src="thumbnails/thumbnail-5.webp"></a>
                     <div class="video-time">11:17</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture"> 
+                        <div class="tooltip">
+                            <div class="tooltip-profile">
+                                <img class="profile-picture-tooltip" src="channel-pictures/channel-5.jpeg">
+                            </div>
+                            <div class="tooltip-profile">
+                                <p class="video-author-tooltip">
+                                    <strong>CS Dojo</strong>
+                                </p>
+                                <p class="video-stats">
+                                    5M Subscribers
+                                </p>
+                            </div>
+                        </div>
                         <img class="profile-picture" src="channel-pictures/channel-5.jpeg"></div>
                     <div class="video-info">
                         <p class="video-title">
@@ -217,11 +282,24 @@
 
             <div class="video-preview">
                 <div class="thumbnail-row">
-                    <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=yXWw0_UfSFg"><img class="thumbnail" src="thumbnails/thumbnail-6.webp"></a>
                     <div class="video-time">19:59</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture"> 
+                        <div class="tooltip">
+                            <div class="tooltip-profile">
+                                <img class="profile-picture-tooltip" src="channel-pictures/channel-6.jpeg">
+                            </div>
+                            <div class="tooltip-profile">
+                                <p class="video-author-tooltip">
+                                    <strong>Mr.Beast</strong>
+                                </p>
+                                <p class="video-stats">
+                                    50M Subscribers
+                                </p>
+                            </div>
+                        </div>
                         <img class="profile-picture" src="channel-pictures/channel-6.jpeg"></div>
                     <div class="video-info">
                         <p class="video-title">
@@ -236,7 +314,7 @@
                 </div>
                 
             </div>
-        </div>
-       
+        </section>
+    </main>
     </body>
 </html>
