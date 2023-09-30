@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://127.0.0.1:5500/results-summary-component-main/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  
+  
+
+
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+<style>undefined</style><link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:5500/results-summary-component-main/assets/images/favicon-32x32.png"><link rel="stylesheet" type="text/css" href="./Frontend Mentor _ Results summary component_files/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Frontend Mentor _ Results summary component_files/css2" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="true"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" href="./Frontend Mentor _ Results summary component_files/css2(1)"></head>
+<body>
+
+  <div class="container-main">
+    <div class="container-surrounding"></div>
+
+    <div class="results-main">
+      <div class="your-result"><p>Your Result</p></div>
+      
+        <div class="number-circle">
+          <div class="result-number">
+            <p><span class="seventy">76</span><br><span class="of-hundred"><span class="hundred">of 100</span></span></p>
+          </div>
+      </div>
+
+      <div class="result-status">
+        <p>Great</p>
+      </div>
+
+      <div class="result-info">
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+      
+    </div>
+
+
+    <div class="summary-main">
+      <div class="summary">
+        <p>Summary</p>
+      </div>
+      <div class="reaction">
+        <div class="summary-box1">
+          <img class="icon" alt="icons" src="./Frontend Mentor _ Results summary component_files/icon-reaction.svg">
+        <p>Reaction <span class="summary-numbers2">80 <span class="of-hundred">/ 100</span></span></p>
+        </div>
+      </div>
+      
+      <div class="memory">
+        <div class="summary-box2">
+          <img class="icon" alt="icons" src="./Frontend Mentor _ Results summary component_files/icon-memory.svg">
+          <p>Memory <span class="summary-numbers2">92 <span class="of-hundred">/ 100</span></span></p>
+        </div>
+        
+      </div>
+      
+      <div class="verbal">
+        <div class="summary-box3">
+          <img class="icon" alt="icons" src="./Frontend Mentor _ Results summary component_files/icon-verbal.svg">
+          <p>Verbal <span class="summary-numbers">61 <span class="of-hundred">/ 100</span></span></p>
+        </div>
+        
+      </div>
+
+      <div class="visual">
+        <div class="summary-box4">
+          <img class="icon" alt="icons" src="./Frontend Mentor _ Results summary component_files/icon-visual.svg">
+          <p>Visual <span class="summary-numbers">72 <span class="of-hundred">/ 100</span></span></p></div>
+       
+      </div>
+
+      <div class="continue">
+        <button>Continue</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="http://127.0.0.1:5500/results-summary-component-main/index.html#">Your Name Here</a>.
+  </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<div id="mcrx-pinner-root"><div data-reactroot="" id="Pinners"><div class="PinnerButton ImagePinner" style="display: none; top: 0px; left: 0px;"><svg class="Icon MiniLogo" width="8" height="8" viewBox="0 0 8 8"><path fill="#FAFAFA" fill-rule="evenodd" d="M6.938 6.187L4.751 3.999l2.187-2.186v4.374zm-5.125.75L4 4.75l2.187 2.188H1.813zm-.751-5.124l2.187 2.186-2.187 2.188V1.813zM7.672.04c-.2-.082-.427-.036-.578.115L4 3.248.906.155C.754.004.526-.042.328.04.129.123 0 .316 0 .53v6.943c0 .071.015.138.04.2.025.06.061.115.109.164l.001.001.001.001.001.001.008.008v.001l.002.001c.05.049.106.084.165.109.061.025.128.04.199.04H7.474c.07 0 .137-.015.198-.04.063-.026.122-.064.173-.115.05-.05.09-.11.116-.173.025-.061.04-.127.04-.197V.53c0-.215-.13-.408-.328-.49z"></path></svg><!-- react-text: 5 --> Save<!-- /react-text --></div></div></div><div id="mcrx-drawer-root"><div data-reactroot="" id="mcrx-drawer-shadow-container" class="resolved"><template shadowrootmode="open"><!-- react-empty: 1 --><style type="text/css">.MilanoteDrawer{position:fixed;top:10px;right:0;width:372px;background:#ebedee;-webkit-box-shadow:0 3px 5px -1px rgba(50,59,74,.2),0 1px 18px 0 rgba(50,59,74,.12),0 6px 10px 0 rgba(50,59,74,.14);box-shadow:0 3px 5px -1px rgba(50,59,74,.2),0 1px 18px 0 rgba(50,59,74,.12),0 6px 10px 0 rgba(50,59,74,.14);-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-transition:-webkit-transform .3s cubic-bezier(.645,.045,.355,1);transition:-webkit-transform .3s cubic-bezier(.645,.045,.355,1);transition:transform .3s cubic-bezier(.645,.045,.355,1);transition:transform .3s cubic-bezier(.645,.045,.355,1),-webkit-transform .3s cubic-bezier(.645,.045,.355,1);z-index:9999999}.MilanoteDrawer.closed{-webkit-transform:translate3d(372px,0,0);transform:translate3d(372px,0,0)}.MilanoteDrawer .ExtensionContent{-webkit-overflow-scrolling:touch;overflow-y:auto;min-height:70px;max-height:calc(100vh - 150px)}.MilanoteDrawer .ExtensionContent::-webkit-scrollbar,.MilanoteDrawer .ExtensionContent::-webkit-scrollbar:hover{width:4px;height:4px}.MilanoteDrawer .ExtensionContent::-webkit-scrollbar-track{background:rgba(0,0,0,.1)}.MilanoteDrawer .ExtensionContent::-webkit-scrollbar-thumb{border-radius:10px;background:rgba(0,0,0,.4)}.MilanoteDrawer .ExtensionContent{padding:16px}.MilanoteDrawer .ExtensionContent.message{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;min-height:240px;padding:20px 50px;border-bottom:0;line-height:25px;color:#323b4a}.MilanoteDrawer .ExtensionContent.message .Icon{margin:10px 0 16px}.MilanoteDrawer .ExtensionContent.message .LinkButton{margin:5px 0 10px}.MilanoteDrawer .ExtensionContent.message .LinkButton.secondary{margin:0 0 10px;font-family:Inter,Helvetica,Arial,sans-serif;font-weight:400;font-size:12px;color:#8d929a}.MilanoteDrawer .ExtensionContent.message .Button{padding:10px 20px;margin-top:10px}.MilanoteDrawer .ExtensionContent.message .message{margin-top:20px;text-align:center;font-size:15px;font-weight:600}.PinnedElementList .Element{margin-bottom:8px}.PinnedElementList .Element:last-of-type{margin-bottom:0}.MilanoteDrawer .Element{position:relative;background:#fff;-webkit-box-shadow:0 1px 3px 0 rgba(50,59,74,.15);box-shadow:0 1px 3px 0 rgba(50,59,74,.15)}.MilanoteDrawer .Element .error-message{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%;height:48px;background:#323b4a;color:#fff;font-size:12px;font-weight:600}.MilanoteDrawer .PageLinkElement{width:100%}.MilanoteDrawer .PageLinkElement.loading{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;min-height:250px}.MilanoteDrawer .PageLinkElement.loading .loading-message{margin-top:12px;color:#8d929a}@-webkit-keyframes loader{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{-webkit-transform:translate3d(0,-5280px,0);transform:translate3d(0,-5280px,0)}}@keyframes loader{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{-webkit-transform:translate3d(0,-5280px,0);transform:translate3d(0,-5280px,0)}}.LogoSpinner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:54px;height:54px}.LogoSpinner.fade-appear,.LogoSpinner.fade-enter,.LogoSpinner.fade-leave.fade-leave-active{opacity:0}.LogoSpinner.fade-appear.fade-appear-active,.LogoSpinner.fade-enter.fade-enter-active,.LogoSpinner.fade-leave{opacity:1}.LogoSpinner.fade-appear.fade-appear-active,.LogoSpinner.fade-enter.fade-enter-active,.LogoSpinner.fade-leave.fade-leave-active{-webkit-transition:opacity .3s ease-in;transition:opacity .3s ease-in}.LogoSpinner .faded-logo{stroke-linecap:round;stroke-linejoin:round;stroke-width:3}.LogoSpinner .animation-container{width:24px;height:24px;overflow:hidden}.LogoSpinner .animation-container .animation-frame{-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-animation:loader 3.66667s steps(220) infinite;animation:loader 3.66667s steps(220) infinite}.MilanoteDrawer .TitleLink{padding:10px 24px 0;margin-bottom:-9px;color:#f4511c;font-size:15px;font-weight:600;text-decoration:underline;line-height:20px}.MilanoteDrawer .Caption{padding:20px 0;margin:0 24px;color:#48505e;font-size:12px;line-height:20px;overflow-wrap:break-word;word-wrap:break-word}.MilanoteDrawer .Caption a{color:#f4511c}.MilanoteDrawer .Caption a:focus{outline:none}.MilanoteDrawer .PageLinkMedia{font-size:0}.MilanoteDrawer .PageLinkMedia .image img{width:100%;height:192px;-o-object-fit:cover;object-fit:cover;font-size:0}.MilanoteDrawer .PageLinkHeader{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-line-pack:center;align-content:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin:24px 24px 0}.MilanoteDrawer .PageLinkHeader .favicon,.MilanoteDrawer .PageLinkHeader .LinkIcon{width:16px;height:16px;min-width:16px}.MilanoteDrawer .PageLinkHeader .url{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;margin-left:8px;color:#8d929a;font-size:12px}.TextSelectionElement{width:100%}.TextSelectionElement .text{padding:20px 24px 2px;margin:0;line-height:20px}.MilanoteDrawer .ImageLinkElement{width:100%;font-size:0;line-height:0}.MilanoteDrawer .ImageLinkElement .ImageLinkElementImage{width:100%}.MilanoteDrawer .ImageLinkElement .ImageLinkElementImage.loading{display:none}.MilanoteDrawer .ImageLinkElement .Caption{border-top:0}.MilanoteDrawer .ImageLinkElement.loading{background:#f4f5f5}.MilanoteDrawer .RemoveElementButton{position:absolute;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;top:-8px;right:-8px;border-radius:50%;color:#fff}.ExtensionRoot{width:372px;background:#ebedee;color:#323b4a;font-family:Inter,Helvetica,Arial,sans-serif;font-size:14px;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.ExtensionRoot *{-webkit-box-sizing:border-box;box-sizing:border-box}.ExtensionRoot .extension-footer{padding:16px;border-top:1px solid #d9dbde}.MilanoteDrawer .Button{margin:0;padding:10px 0;border:0;border-radius:4px;outline:0;background:#f4511c;color:#fff;font-family:Inter,Helvetica,Arial,sans-serif;font-weight:600;font-size:1em;text-decoration:none;cursor:pointer}.MilanoteDrawer .Button:disabled{opacity:.9}.MilanoteDrawer .LinkButton{font-size:1em;text-decoration:underline;color:#f4511c;cursor:pointer;border:0;outline:0;background:none}.BoardPicker .popup-overlay{position:absolute;top:0;bottom:0;left:0;right:0;opacity:0}.BoardPicker .popup-container{position:relative}.BoardPickerPopup{z-index:1}.BoardPickerPopup:after,.BoardPickerPopup:before{position:absolute;width:0;height:0;border:solid transparent;content:"";pointer-events:none;z-index:1}.BoardPickerPopup:after{bottom:-1px;right:13px;border-width:6px;border-top-color:#fff}.BoardPickerPopup:before{bottom:-3px;right:12px;border-width:7px}.BoardPickerPopup .popup-list{-webkit-overflow-scrolling:touch;overflow-y:auto;position:absolute;width:100%;bottom:10px;left:0;max-height:50vh;border-radius:3px;background:#fff;-webkit-box-shadow:0 11px 15px -7px rgba(50,59,74,.2),0 9px 46px 8px rgba(50,59,74,.12),0 24px 38px 3px rgba(50,59,74,.14);box-shadow:0 11px 15px -7px rgba(50,59,74,.2),0 9px 46px 8px rgba(50,59,74,.12),0 24px 38px 3px rgba(50,59,74,.14)}.BoardPickerPopup .popup-list::-webkit-scrollbar,.BoardPickerPopup .popup-list::-webkit-scrollbar:hover{width:4px;height:4px}.BoardPickerPopup .popup-list::-webkit-scrollbar-track{background:rgba(0,0,0,.1)}.BoardPickerPopup .popup-list::-webkit-scrollbar-thumb{border-radius:10px;background:rgba(0,0,0,.4)}.BoardPickerPopup .BoardPickerPopupOption:first-of-type{border-top:0}.BoardPickerPopupOption{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;height:48px;border-top:1px solid #ebebed;font-size:12px;font-weight:600;line-height:20px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.BoardPickerPopupOption:hover{background:#f9f9f9}.BoardPickerPopupOption.selected{background:#f3f3f4}.BoardPickerPopupOption .board-details{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.BoardPickerPopupOption .board-details .title{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;max-width:240px}.BoardPickerPopupOption .board-details .board-icon{padding-left:24px}.BoardPickerPopupOption .board-details .title{padding-left:9px}.BoardPickerPopupOption .Tick{margin-right:22px}.BoardPickerPopupOption .Tick path{fill:#323b4a}.BoardIcon{position:relative}.BoardIcon .board-icon-content{display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:32px;height:32px;border-radius:7px;background:#cbced2;overflow:hidden}.BoardIcon .board-icon-content .ElementIcon{cursor:default;--element-icon-color:$white}.BoardIcon .board-icon-content .ElementIcon .Icon.StringIcon{width:100%;height:100%;color:var(--element-icon-color)}.BoardIcon .board-icon-content .ElementIcon .Icon.DefaultIcon,.BoardIcon .board-icon-content .ElementIcon .Icon.SVGIcon{width:16px;height:16px}.BoardIcon .board-icon-content .ElementIcon .Icon.DefaultIcon svg path,.BoardIcon .board-icon-content .ElementIcon .Icon.SVGIcon svg path{fill:var(--element-icon-color)}.BoardIcon.is-dark .board-icon-content .ElementIcon{--element-icon-color:$black;--element-icon-blend-mode:normal;--element-icon-opacity:1}.BoardIcon.is-dark .board-icon-content .ElementIcon .Icon.StringIcon{color:#fff}.BoardIcon.is-dark .board-icon-content .ElementIcon .Icon.DefaultIcon svg path,.BoardIcon.is-dark .board-icon-content .ElementIcon .Icon.SVGIcon svg path{fill:#fff}@-webkit-keyframes spin{0%{-webkit-transform:perspective(120px) rotateY(0deg);transform:perspective(120px) rotateY(0deg)}to{-webkit-transform:perspective(120px) rotateY(1turn);transform:perspective(120px) rotateY(1turn)}}@keyframes spin{0%{-webkit-transform:perspective(120px) rotateY(0deg);transform:perspective(120px) rotateY(0deg)}to{-webkit-transform:perspective(120px) rotateY(1turn);transform:perspective(120px) rotateY(1turn)}}.MilanoteDrawer .MilanoteLogo .logo-spinner-icon{-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-perspective-origin:50% 50%;perspective-origin:50% 50%}.MilanoteDrawer .MilanoteLogo .logo-spinner-icon.animate{-webkit-animation:spin 1.5s cubic-bezier(.35,.27,.6,.7) infinite;animation:spin 1.5s cubic-bezier(.35,.27,.6,.7) infinite}.BoardImage{position:relative;width:32px;height:32px;overflow:hidden}.BoardImage img{border-radius:7px;width:100%;-o-object-fit:cover;object-fit:cover}.ElementIcon{--element-icon-color:$palette-charcoal-950}.ElementIcon svg{width:100%!important;height:100%!important}.ElementIcon .Icon{margin:auto}.ElementIcon .Icon.StringIcon{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%;height:100%;color:var(--element-icon-color);font-family:Inter,Helvetica,Arial,sans-serif;font-size:18px;text-align:center}.ElementIcon .Icon.StringIcon .string-icon-1{font-size:1em}.ElementIcon .Icon.StringIcon .string-icon-2,.ElementIcon .Icon.StringIcon .string-icon-3{font-size:.5em;font-weight:700}.ElementIcon .Icon.StringIcon .string-icon-4{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;width:2em;font-size:.5em;line-height:1em;font-weight:700}.ElementIcon .Icon.StringIcon .string-icon-4 span{display:inline-block;width:1em}.BoardPickerButton.Button{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%;padding:0;color:#fff;-webkit-transition:background .12s linear;transition:background .12s linear}.BoardPickerButton.Button .primary-button{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;padding:11px 20px 12px;border-right:1px solid hsla(0,0%,100%,.3);text-align:center;overflow:hidden;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-transition:opacity .07s linear,-webkit-transform .07s linear;transition:opacity .07s linear,-webkit-transform .07s linear;transition:opacity .07s linear,transform .07s linear;transition:opacity .07s linear,transform .07s linear,-webkit-transform .07s linear}.BoardPickerButton.Button .primary-button .SaveBoardText{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.BoardPickerButton.Button .primary-button .board-title{font-weight:600}.BoardPickerButton.Button .dropdown-button{width:40px;padding:0;-webkit-transition:opacity .07s linear;transition:opacity .07s linear}.BoardPickerButton.Button .dropdown-button,.BoardPickerButton.Button .saved-text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.BoardPickerButton.Button .saved-text{position:absolute;height:100%;width:100%;opacity:0;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0);-webkit-transition:opacity .07s linear,-webkit-transform .07s linear;transition:opacity .07s linear,-webkit-transform .07s linear;transition:opacity .07s linear,transform .07s linear;transition:opacity .07s linear,transform .07s linear,-webkit-transform .07s linear;pointer-events:none}.BoardPickerButton.Button .saved-text .text{margin-left:7px;font-weight:600}.BoardPickerButton.Button .saved-text .Tick{fill:#fff}.BoardPickerButton.Button.hide-dropdown-button .dropdown-button{opacity:0}.BoardPickerButton.Button.hide-dropdown-button .primary-button{border-right:0;opacity:0;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}.BoardPickerButton.Button.change-color{background:#4eb85a}.BoardPickerButton.Button.show-saved .saved-text{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}
+/*# sourceMappingURL=drawer.css.map*/</style></template></div></div></body></html>
