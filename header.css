@@ -96,6 +96,7 @@ cursor: pointer;
     transition: opacity 0.15s;
     pointer-events: none;
     white-space: nowrap;
+    font-family: Roboto, Arial;
 
 }
 .search-button:hover .tooltip,
