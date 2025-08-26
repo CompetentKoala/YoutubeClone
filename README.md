@@ -14,7 +14,7 @@ This project was created to strengthen front-end skills by replicating the layou
 - CSS3 (Flexbox & Grid)
 
 ## Preview
-![YouTube Clone Preview](ScreenShot/Screen Shot 2025-08-25 at 6.45.43 PM.png)
+![YouTube Clone Preview]([ScreenShot/Screen Shot 2025-08-25 at 6.45.43 PM.png](https://github.com/CompetentKoala/YoutubeClone/blob/main/ScreenShot/Screen%20Shot%202025-08-25%20at%206.45.43%20PM.png))
 
 ## Purpose
 This project is for practice only and does not include JavaScript functionality such as video playback or dynamic loading.  
